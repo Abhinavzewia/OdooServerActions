@@ -7,6 +7,8 @@ class ConnectOdoo:
         self.user_name = user_name
         self.db = db
         self.password = password
+        self.uid = None
+        self.object = None
         self.connection = server_connect
 
     def connection(self):
